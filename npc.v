@@ -1,4 +1,4 @@
-module npc(pc, b, j, branch, aluzero, jump, npc)
+module npc(pc, b, j, branch, aluzero, jump, npc);
     input   [31:0]  pc;
     input   [31:0]  b;
     input   [25:0]  j;

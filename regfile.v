@@ -1,4 +1,4 @@
-module regfile(rs, rt, rd, aluresult, memdata, memtoreg, regwrite, regdst, clk, rst, dout1, dout2)
+module regfile(rs, rt, rd, aluresult, memdata, memtoreg, regwrite, regdst, clk, rst, dout1, dout2);
     input   [25:21] rs;
     input   [20:16] rt;
     input   [15:11] rd;

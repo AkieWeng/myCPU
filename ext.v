@@ -1,4 +1,4 @@
-module ext(in, out)
+module ext(in, out);
     input   [15:0]  in;
     output  [31:0]  out;
 
